@@ -1,0 +1,79 @@
+{
+    "author": "zszen@hotmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.0"
+    },
+    "keywords": [],
+    "name": "zswisssquare",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "SwissSquare Modify By Zszen",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TYPE",
+            "CONFIG_watchfaceType",
+            "CONFIG_secondType"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/logo",
+                    "menuIcon": true,
+                    "name": "IMAGE_LOGO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg_black_logo",
+                    "name": "IMAGE_MONDAINE_BLACKNLBG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg_black",
+                    "name": "IMAGE_MONDAINE_BLACKBG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooch_disconnected",
+                    "name": "IMAGE_BLUETOOTHDISCONNECTED",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth_connected",
+                    "name": "IMAGE_BLUETOOTHCONNECTED",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg_white_logo",
+                    "name": "IMAGE_MONDAINE_WHITENLBG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg_white",
+                    "name": "IMAGE_MONDAINE_WHITEBG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "2371e1fd-a297-4bd1-bb13-6523fc2965ec",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
